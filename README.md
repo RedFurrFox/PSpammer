@@ -1,4 +1,4 @@
-#<h1 align="center">**PSPAMMERv2.0**
+<h1 align="center">**PSPAMMERv2.0**
 
 ---
 
