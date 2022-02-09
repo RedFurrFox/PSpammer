@@ -26,7 +26,7 @@
 
 ## Screenshot:
 
-[UwU](https://user-images.githubusercontent.com/80197308/153191700-8a4e588e-b0da-4317-a68e-beaa966088d0.png)
+https://user-images.githubusercontent.com/80197308/153191700-8a4e588e-b0da-4317-a68e-beaa966088d0.png
 
 ---
 
