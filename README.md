@@ -1,4 +1,4 @@
-# **PSPAMMERv2.0**
+#<h1 align="center">**PSPAMMERv2.0**
 
 ---
 
@@ -21,6 +21,12 @@
 ### Step 2: _Open My Code On Any Terminal (Like: Termux On Android). (Any Will Work... IDK)_
 ### Step 3: _Choose Your Selection, And Enter The Site, Then Your Done_
 ### Step 4: _Watch The Magic Happens. And You're Done :)_
+
+---
+
+## Screenshot:
+
+ <h1 align="center">![Screenshot 2022-02-09 193122](https://user-images.githubusercontent.com/80197308/153191700-8a4e588e-b0da-4317-a68e-beaa966088d0.png)
 
 ---
 
