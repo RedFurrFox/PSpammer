@@ -1,11 +1,14 @@
 # Modules
-import asyncio, threading, requests, random, time
+import threading, requests, random, time
+from asyncore import loop
+
 # Data For Fake Account And Password Generator So It Will Make The Sended Data Legit And Get Accepted Even If They Have A Filter.
-MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen"]
-MAIL1_Var = ["communication","help","gaming","assistant","trinity","sponsor","love_you","sexlife","cum","mukbangs","assistant","support","info","work","school"]
-MAIL2_Var = ["gmail","outlook","me","yahoo","pornhub","microsoft","youtube","pornhub","brazzers","google","hotmail"]
+MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona"]
+MAIL1_Var = ["communication","help","gaming","assistant","trinity","sponsor","love_you","sexlife","cum","mukbangs","assistant","support","info","work","school","help","care","random"]
+MAIL2_Var = ["gmail","outlook","me","yahoo","pornhub","microsoft","youtube","pornhub","brazzers","google","hotmail","insta","facebook"]
 MAIL3_Var = ["-","_",".",""]
-PASSWORD_Var = ["123456789","987654321","090807060504030201","Dragon","1111111111","Sheesh123","spam6912345","ILOVEYOU","WELOVEEARTH","08112233445","GetReadyWeAreHavingFun","ILOVEPORN691298","636564636261Memak","loveLetter","Qwerty123","qwertyuopasdfghjklzxcvbnm","GYGAUBCDUSVBXJAISHI","Hentailover69"]
+PASSWORD_Var = ["123456789","987654321","090807060504030201","Dragon","1111111111","Sheesh123","spam6912345","ILOVEYOU","WELOVEEARTH","08112233445","GetReadyWeAreHavingFun","ILOVEPORN691298","636564636261Memak","loveLetter","Qwerty123","qwertyuopasdfghjklzxcvbnm","GYGAUBCDUSVBXJAISHI","Hentailover69","hewdvxbsxhjksbdsbohedf","wteruyegabzkxchh","qwertyuiopasdfghjklzxcvbnm"]
+
 #Logo
 LOGO = """\033[1;31;40m██████\033[1;32;40m╗░░\033[1;31;40m██████\033[1;32;40m╗██████╗░░█████╗░███╗░░░███╗███╗░░░███╗███████╗\033[1;34;40m██████\033[1;32;40m╗░
 \033[1;31;40m██\033[1;32;40m╔══\033[1;31;40m██\033[1;32;40m╗\033[1;31;40m██\033[1;32;40m╔════╝██╔══██╗██╔══██╗████╗░████║████╗░████║██╔════╝\033[1;34;40m██\033[1;32;40m╔══\033[1;34;40m██\033[1;32;40m╗
@@ -15,12 +18,16 @@ LOGO = """\033[1;31;40m██████\033[1;32;40m╗░░\033[1;31;40m█�
 \033[1;32;40m╚═╝░░░░░╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚═╝ V.2.0"""
 LOGO1 = """\033[1;36;40mCreated By: \033[1;35;40mRedFurrFox On Github
 \033[1;36;40mJoin Our FB Group: \033[1;35;40mhttps://www.facebook.com/groups/1778790372291663\n\n"""
+
 # Delay
 T = 0.75
 T1 = 0.50
+
 # Collection Of Data
 print(LOGO)
 print(LOGO1)
+time.sleep(T)
+print("(Please Don't Mind The Error On Import If You See It. This Script Need That Module Even It Is Deprecated)\n")
 time.sleep(T)
 print("""\033[1;34;40m[?] \033[1;37;40mPlease Choose Your Selection To Start:
 \033[1;32;40m[01] \033[1;37;40mStart
@@ -28,8 +35,8 @@ print("""\033[1;34;40m[?] \033[1;37;40mPlease Choose Your Selection To Start:
 \033[1;32;40m[00] \033[1;37;40mExit\n""")
 time.sleep(T1)
 S = input("\033[1;33;40m[=] \033[1;37;40mYour Selection= ")
-# If Else statement
 
+# If Else statement
 if S == "1" or S == "01":
     URL = input("\033[1;34;40m[?] \033[1;37;40mPlease Enter The Phishing Recieving Link: \n")
     DATA = input("\033[1;34;40m[?] \033[1;37;40mPlease Enter The Username Box: \n")
@@ -39,33 +46,38 @@ if S == "1" or S == "01":
 
     # The Processor
     def SP():
-        MG = random.choice(MAIL_Var)
-        M1G = random.choice(MAIL1_Var)
-        M2G = random.choice(MAIL2_Var)
-        M3G = random.choice(MAIL3_Var)
-        PG = random.choice(PASSWORD_Var) + random.choice(PASSWORD_Var)
-        PG1 = random.choice(PASSWORD_Var)
-        PG2 = random.choice(PASSWORD_Var) + random.choice(MAIL_Var) or random.choice(MAIL_Var) + random.choice(PASSWORD_Var)  # To somehow avoid reputation of data
-        PG3 = PG or PG1 or PG2
-        DATA3 = {
-            f'{DATA}': f'{MG + M3G + M1G + "@" + M2G + ".com"}',
-            f'{DATA1}': f'{PG2}'
-        }
-        time.sleep(5)
-        Lmao = requests.post(url=URL, data=DATA).text  # Trust me dont use the "Lmao" variable... I didn't use "Lmao" variable as the data in it is kinda useless... It will make your terminal/console ugly and it will spam you with useless data. Also why did I think naming That variable as "Lmao" XD.
-        print(f'\033[1;34;40m[/] \033[1;37;40mSpam Sent Successfully To This {URL} Link')
-        print(f'\033[1;34;40m[*] \033[1;37;40mGenerated Data = {MG + M3G + M1G + "@" + M2G + ".com"}:{PG3}\n')
+        while True:
+            MG = random.choice(MAIL_Var)
+            M1G = random.choice(MAIL1_Var)
+            M2G = random.choice(MAIL2_Var)
+            M3G = random.choice(MAIL3_Var)
+            PG = random.choice(PASSWORD_Var) + random.choice(PASSWORD_Var)
+            PG1 = random.choice(PASSWORD_Var)
+            PG2 = random.choice(PASSWORD_Var) + random.choice(MAIL_Var) or random.choice(MAIL_Var) + random.choice(PASSWORD_Var)  # To somehow avoid reputation of data
+            PG3 = PG or PG1 or PG2
+            DATA3 = {
+                f'{DATA}': f'{MG + M3G + M1G + "@" + M2G + ".com"}',
+                f'{DATA1}': f'{PG2}'
+            }
+            time.sleep(5)
+            Lmao = requests.post(url=URL, data=DATA).text  # Trust me dont use the "Lmao" variable... I didn't use "Lmao" variable as the data in it is kinda useless... It will make your terminal/console ugly and it will spam you with useless data. Also why did I think naming That variable as "Lmao" XD.
+            print(f'\033[1;34;40m[/] \033[1;37;40mSpam Sent Successfully To This {URL} Link')
+            print(f'\033[1;34;40m[*] \033[1;37;40mGenerated Data = {MG + M3G + M1G + "@" + M2G + ".com"}:{PG3}\n')
+    
     # Threading so it will spam the phishing site effectively
     threads = []
-    for i in range(40):
+    for i in range(50):
         t = threading.Thread(target=SP)
         t.daemon = True
         threads.append(t)
-    for i in range(40):
+    for i in range(50):
         threads[i].start()
-    for i in range(40):
+    for i in range(50):
         threads[i].join()
-    asyncore.loop()
+    loop()
+    loop()
+    loop()
+
     print("\033[1;31;40m[X] \033[1;37;40mIf You Are Reading This... Either Your Link/Boxes That You Entered Are Incorrect Or Either You Are Offline Or The Site Itself.")
     print("\033[1;34;40m[-_-] \033[1;37;40mSo... Basically, The Script Just Stop Working. Because Of You... Nahhh Joke. K Bye Have A Nice Day")
     print("\033[1;34;40m[*] \033[1;33;40mExiting Script...")
