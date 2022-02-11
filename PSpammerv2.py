@@ -1,5 +1,5 @@
 # Modules
-import asyncore, threading, requests, random, time
+import asyncio, threading, requests, random, time
 # Data For Fake Account And Password Generator So It Will Make The Sended Data Legit And Get Accepted Even If They Have A Filter.
 MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen"]
 MAIL1_Var = ["communication","help","gaming","assistant","trinity","sponsor","love_you","sexlife","cum","mukbangs","assistant","support","info","work","school"]
@@ -110,7 +110,7 @@ Notes Before You Run This Script:
     - This Tool Is Created To Spam Phishing Links... 
       So Basically, I Made This To Annoy Bad Hackers :)
     - Download All Required Modules For This Script To Run
-        (Like: Asyncore, Threading, Requests, Random And Time)
+        (Like: Asyncio, Threading, Requests, Random And Time)
 ------------------------------------------------------------------------
 
  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +
