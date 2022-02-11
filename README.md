@@ -26,6 +26,12 @@
 
 ---
 
+## Video Tutorial:
+
+### Comming Soon
+
+---
+
 ## Screenshot:
 
 ![Sample](https://user-images.githubusercontent.com/80197308/153191700-8a4e588e-b0da-4317-a68e-beaa966088d0.png)
@@ -40,6 +46,14 @@
 ### You Are Visible When Doing This Attack... So Make Sure You're Using Any Kind Of Protection (Like: VPNs And Proxychains)
 ###
 ### Have A Very Wonderful Day
+
+---
+
+## Features:
+
+### _- Fake Credentials Generator
+### _- Fast Spam
+### _- Easy To Use Feature For Less Experience Person
 
 ---
 
