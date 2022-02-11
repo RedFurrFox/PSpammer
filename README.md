@@ -19,14 +19,14 @@
 ### Step 1: _Find Some "Phishing Link" On Your Inbox_
 ### Step 2: _Download My Code By Typing "git clone https://github.com/RedFurrFox/PSpammerv2"_
 ### Step 2: _Open My Code On Any Terminal (Like: Termux On Android). (Any Will Work... IDK)_
-### Step 3: _Choose Your Selection, And Enter The Site, Then Your Done_
+### Step 3: _Choose Your Selection, And Enter The Needed Data To Run._
 ### Step 4: _Watch The Magic Happens. And You're Done :)_
 
 ---
 
 ## Screenshot:
 
-https://user-images.githubusercontent.com/80197308/153191700-8a4e588e-b0da-4317-a68e-beaa966088d0.png
+![Sample](https://user-images.githubusercontent.com/80197308/153191700-8a4e588e-b0da-4317-a68e-beaa966088d0.png)
 
 ---
 
