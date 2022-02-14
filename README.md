@@ -51,21 +51,22 @@
 
 ## Features:
 
-### _- Fake Credentials Generator
-### _- Fast Spam
-### _- Easy To Use Feature For Less Experience Person
+### _- Fake Credentials Generator_
+### _- Kinda Fast Spam_
+### _- Easy To Use Feature For Less Experience Person_
 
 ---
 
 ## Issue/s With My Code:
 
 ### _- Can Cause DOS On Selected Sites_
+### _- Hard To Understand Terms For Some People_
 
 ---
 
-## Want To Help To Annoy Some Bad Hackers?
+## Want To Help Us To Annoy Some Bad Hackers?
 
-### You Can Help Us By Suggesting Or Adding A Features (Anytime And Anywhere)
+### You Can Help Us By Suggesting/Adding A Features And Joining Our [FB group](https://www.facebook.com/groups/1778790372291663) (Anytime And Anywhere)
 
 ---
 
