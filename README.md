@@ -8,7 +8,7 @@
 
 ### Tired Of Spam Messages That Is Full Of Phishing Links?
 ### Try Pissing Them Off. By Using My Newly And Improved Code, You Are Guaranteed That Their Phishing Link Will Be Spammed With Full Of Nonsense Credentials.
-### Comes With Built-in Fake Credentials Generator
+### Comes With Built-in Fake Credentials Generator.
 
 ---
 ## About:
@@ -20,7 +20,7 @@
 
 ### Step 1: _Find Some "Phishing Link" On Your Inbox_
 ### Step 2: _Download My Code By Typing "git clone https://github.com/RedFurrFox/PSpammerv2"_
-### Step 2: _Open My Code On Any Terminal (Like: Termux On Android). (Any Will Work... IDK)_
+### Step 2: _Open My Code On Any Terminal (Like: Termux On Android) (Any Will Work... IDK)._
 ### Step 3: _Choose Your Selection, And Enter The Needed Data To Run._
 ### Step 4: _Watch The Magic Happens. And You're Done :)_
 
@@ -51,16 +51,26 @@
 
 ## Features:
 
-### _- Fake Credentials Generator_
-### _- Kinda Fast Spam_
-### _- Easy To Use Feature For Less Experience Person_
+### _- Fake Credentials Generator._
+### _- Kinda Fast Spam._
+### _- Easy To Use Feature For Less Experience Person._
 
 ---
 
 ## Issue/s With My Code:
 
-### _- Can Cause DOS On Selected Sites_
-### _- Hard To Understand Terms For Some People_
+### _- Can Cause DOS On Selected Sites._
+### _- Hard To Understand Terms For Some People._
+
+---
+
+## Plans About This Repo On The Near Future:
+
+### _- Add Threadscrapper._
+### _- Add An Editable Text File That Contains Fake Credentials For Easy Changes._
+### _- Add Some Anti-Tracking Counter Measures (Like: Changable Random Proxies, Fake User Agents And Some Other Junks)._
+### _- Improved Its Spamming Efficiency To Its Target._
+### _- Hiring Some Testers To Further Check If The Script Is Running As Intended._
 
 ---
 
@@ -70,6 +80,12 @@
 
 ---
 
-## Join Our Fucking Socials: ["Android Hacker PH On Facebook"](https://www.facebook.com/groups/1778790372291663)
+## Join Our Fucking Socials: 
+
+### ["Android Hacker PH On Facebook"](https://www.facebook.com/groups/1778790372291663)
+
 ---
-## Created By: ["RedFurrFox On Github"](https://github.com/RedFurrFox)
+  
+## Created By: 
+  
+### ["RedFurrFox On Github"](https://github.com/RedFurrFox)
