@@ -66,11 +66,15 @@
 
 ## Plans About This Repo On The Near Future:
 
-### _- Add Threadscrapper._
-### _- Add An Editable Text File That Contains Fake Credentials For Easy Changes._
-### _- Add Some Anti-Tracking Counter Measures (Like: Changable Random Proxies, Fake User Agents And Some Other Junks)._
+### _- Adding Threadscrapper For More Efficient Executions Than Threading Itself._
+### _- Adding An Editable Text File That Contains Fake Credentials For Easy Changes._
+### _- Adding Some Anti-Tracking Counter Measures (Like: Changable Random Proxies, Fake User Agents And Some Other Junks)._
+### _- Adding Some Other Features (Like Spam Count And Put Its Generated Spam On A Specific Text File)._
+### _- Adding An Auto PIP Install/Update For User Convinience._
+### _- Maybe I'll Add Some Anti-Piracy Features On This Script._
 ### _- Improved Its Spamming Efficiency To Its Target._
 ### _- Hiring Some Testers To Further Check If The Script Is Running As Intended._
+### _- Adding A Target Ping Test, To See If The Site Is Close With Built-In Site Code._
 
 ---
 
