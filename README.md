@@ -59,7 +59,7 @@
 
 ## Issue/s With My Code:
 
-### _- Can Cause DOS On Selected Sites._
+### _- Can Cause DOS Attacks On Other Selected Sites._
 ### _- Hard To Understand Terms For Some People._
 
 ---
