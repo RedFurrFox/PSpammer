@@ -19,10 +19,10 @@
 ## How To Use My Code:
 
 ### Step 1: _Find Some 'Phishing Links' On Your Inbox._
-### Step 2: _Download My Code By Typing "git clone https://github.com/RedFurrFox/PSpammerv2" Or By Forking This Repo._
-### Step 2: _Open My Code On Any Terminal (Like: Termux On Android) (Any Will Work... IDK)._
-### Step 3: _Choose Your Selection, And Enter The Needed Data To Run._
-### Step 4: _Watch The Magic Happens. And You're Done :)_
+### Step 2: _Download My Code 'Directly' By Typing "git clone https://github.com/RedFurrFox/PSpammerv2" Or By Forking This Repo._
+### Step 3: _Open My Code On Any Terminal (Like: Termux On Android) (Any Will Work... IDK)._
+### Step 4: _Choose Your Selection, And Enter The Needed Data To Run._
+### Step 5: _Watch The Magic Happens. And You're Done :)_
 
 ---
 
