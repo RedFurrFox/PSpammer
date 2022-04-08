@@ -52,7 +52,7 @@
  
  - Removed Asyncore :: _Getting Deprecated In The Near Future_
  - Some Changes On README.md :: _Why Not? I Just Want It_
- - Threading Increased (From 50 > To > 80) :: _Kinda Makes It More Interesting While Spamming Someones Phishing Link_
+ - Threading Increased (From 50 > To > 70) :: _Kinda Makes It More Interesting While Spamming Someones Phishing Link_
  - Added Some More Names And Password To Generate :: _Obviously To Avoid Repitions Of Data Frequently_
  
 ---
