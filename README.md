@@ -1,6 +1,6 @@
 # ![Log0v2](https://user-images.githubusercontent.com/80197308/153523663-6f87fbca-187f-43d8-a750-d9ee2cf02f0e.png)
 
-# <h1 align="center">PSPAMMERv2.0
+## <h1 align="center">PSPAMMERv2.0
 
 ---
 
@@ -18,11 +18,11 @@
 
 ## How To Use My Code:
 
- Step 1: _Find Some 'Phishing Links' On Your Inbox._
- Step 2: _Download My Code 'Directly' By Typing `"git clone https://github.com/RedFurrFox/PSpammerv2"` Or By Forking This Repo._
- Step 3: _Open My Code On Any Terminal (Like: Termux On Android) (Any Will Work... IDK)._
- Step 4: _Choose Your Selection, And Enter The Needed Data To Run._
- Step 5: _Watch The Magic Happens. And You're Done :)_
+ - Step 1: _Find Some 'Phishing Links' On Your Inbox._
+ - Step 2: _Download My Code 'Directly' By Typing `"git clone https://github.com/RedFurrFox/PSpammerv2"` Or By Forking This Repo._
+ - Step 3: _Open My Code On Any Terminal (Like: Termux On Android) (Any Will Work... IDK)._
+ - Step 4: _Choose Your Selection, And Enter The Needed Data To Run._
+ - Step 5: _Watch The Magic Happens. And You're Done :)_
 
 ---
 
@@ -51,32 +51,32 @@ Have A Very Wonderful Day
 
 ## Features:
 
- _- Fake Credentials Generator._
- _- Kinda Fast Spam._
- _- Easy To Use Feature For Less Experience Person._
+ - _Fake Credentials Generator._
+ - _Kinda Fast Spam._
+ - _Easy To Use Feature For Less Experience Person._
 
 ---
 
 ## Issue/s With My Code:
 
- _- Can Cause DOS Attacks On Other Selected Sites._
- _- Hard To Understand Terms For Some People._
+ - _Can Cause DOS Attacks On Other Selected Sites._
+ - _Hard To Understand Terms For Some People._
 
 ---
 
 ## Plans About This Repo On The Near Future:
 
- _- Adding Threadscrapper For More Efficient Executions Than Threading Itself._
- _- Adding An Editable Text File That Contains Fake Credentials For Easy Changes._
- _- Adding Some Anti-Tracking Counter Measures (Like: Changable Random Proxies, Fake User Agents And Some Other Junks)._
- _- Adding Some Other Features (Like Spam Count And Put Its Generated Fake Credentials On A Specific Text File)._
- _- Adding An Auto PIP Install/Update For User Convinience._
- _- Maybe I'll Add Some Anti-Piracy Features On This Script (Like: 'Obfuscation' And 'Anti-Copy And Paste' Againts User To User Transfer So As To Avoid Sharing Malicious Codes)._
- _- Improved Its Spamming Efficiency To Its Target._
- _- Hiring Some Testers To Further Check If The Script Is Running As Intended._
- _- Adding A Target Ping Test, To See If The Site Is Close With Built-In Site Code._
- _- Random Trashtalks._
- _- Video Tutorial._
+ - _Adding Threadscrapper For More Efficient Executions Than Threading Itself._
+ - _Adding An Editable Text File That Contains Fake Credentials For Easy Changes._
+ - _Adding Some Anti-Tracking Counter Measures (Like: Changable Random Proxies, Fake User Agents And Some Other Junks)._
+ - _Adding Some Other Features (Like Spam Count And Put Its Generated Fake Credentials On A Specific Text File)._
+ - _Adding An Auto PIP Install/Update For User Convinience._
+ - _Maybe I'll Add Some Anti-Piracy Features On This Script (Like: 'Obfuscation' And 'Anti-Copy And Paste' Againts User To User Transfer So As To Avoid Sharing Malicious Codes)._
+ - _Improved Its Spamming Efficiency To Its Target._
+ - _Hiring Some Testers To Further Check If The Script Is Running As Intended._
+ - _Adding A Target Ping Test, To See If The Site Is Close With Built-In Site Code._
+ - _Random Trashtalks._
+ - _Video Tutorial._
 
 ---
 
@@ -88,13 +88,13 @@ Have A Very Wonderful Day
 
 ## Join Our Fucking Socials: 
 
- ["Android Hacker PH On Facebook"](https://www.facebook.com/groups/1778790372291663)
+ - ["Android Hacker PH On Facebook"](https://www.facebook.com/groups/1778790372291663)
 
 ---
   
 ## Created By: 
   
-["RedFurrFox On Github"](https://github.com/RedFurrFox)
+ - ["RedFurrFox On Github"](https://github.com/RedFurrFox)
 
 ---
   
