@@ -2,11 +2,11 @@
 import threading, requests, random, time
 
 # Data For Fake Account And Password Generator So It Will Make The Sended Data Legit And Get Accepted Even If They Have A Filter.
-MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona"]
-MAIL1_Var = ["communication","help","gaming","assistant","trinity","sponsor","love_you","sexlife","cum","mukbangs","assistant","support","info","work","school","help","care","random"]
-MAIL2_Var = ["gmail","outlook","me","yahoo","pornhub","microsoft","youtube","pornhub","brazzers","google","hotmail","insta","facebook"]
+MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona","lore","surprize","dog","admin","cat","shermin"]
+MAIL1_Var = ["communication","help","gaming","assistant","trinity","sponsor","love_you","sexlife","cum","mukbangs","assistant","support","info","work","school","help","care","random","admin","moderator","adm","mod"]
+MAIL2_Var = ["gmail","outlook","me","yahoo","pornhub","microsoft","youtube","pornhub","brazzers","google","hotmail","insta","facebook","msn","gore","freebrazzers"]
 MAIL3_Var = ["-","_",".",""]
-PASSWORD_Var = ["123456789","987654321","090807060504030201","Dragon","1111111111","Sheesh123","spam6912345","ILOVEYOU","WELOVEEARTH","08112233445","GetReadyWeAreHavingFun","ILOVEPORN691298","636564636261Memak","loveLetter","Qwerty123","qwertyuopasdfghjklzxcvbnm","GYGAUBCDUSVBXJAISHI","Hentailover69","hewdvxbsxhjksbdsbohedf","wteruyegabzkxchh","qwertyuiopasdfghjklzxcvbnm"]
+PASSWORD_Var = ["123456789","987654321","090807060504030201","Dragon","Cat","Dog","Fury","1111111111","Sheesh123","spam6912345","ILOVEYOU","WELOVEEARTH","08112233445","GetReadyWeAreHavingFun","ILOVEPORN691298","636564636261Memak","loveLetter","Qwerty123","qwertyuopasdfghjklzxcvbnm","GYGAUBCDUSVBXJAISHI","Hentailover69","hewdvxbsxhjksbdsbohedf","wteruyegabzkxchh","qwertyuiopasdfghjklzxcvbnm","ABCDEFGHILKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz","Yes_Daddy_Give_Me_Your_Seed","I Love You Shermin","Walang Tayo Bitch","Mamamo blue69"]
 
 #Logo
 LOGO = """\033[1;31;40m██████\033[1;32;40m╗░░\033[1;31;40m██████\033[1;32;40m╗██████╗░░█████╗░███╗░░░███╗███╗░░░███╗███████╗\033[1;34;40m██████\033[1;32;40m╗░
@@ -65,13 +65,13 @@ if S == "1" or S == "01":
     
     # Threading so it will spam the phishing site effectively
     threads = []
-    for i in range(75):
+    for i in range(70):
         t = threading.Thread(target=SP)
         t.daemon = True
         threads.append(t)
-    for i in range(75):
+    for i in range(70):
         threads[i].start()
-    for i in range(75):
+    for i in range(70):
         threads[i].join()
     
     print("\033[1;31;40m[X] \033[1;37;40mIf You Are Reading This... Either Your Link/Boxes That You Entered Are Incorrect Or Either You Are Offline Or The Site Itself.")
