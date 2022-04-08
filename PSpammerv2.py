@@ -1,6 +1,5 @@
 # Modules
 import threading, requests, random, time
-from asyncore import loop
 
 # Data For Fake Account And Password Generator So It Will Make The Sended Data Legit And Get Accepted Even If They Have A Filter.
 MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona"]
@@ -66,18 +65,15 @@ if S == "1" or S == "01":
     
     # Threading so it will spam the phishing site effectively
     threads = []
-    for i in range(50):
+    for i in range(75):
         t = threading.Thread(target=SP)
         t.daemon = True
         threads.append(t)
-    for i in range(50):
+    for i in range(75):
         threads[i].start()
-    for i in range(50):
+    for i in range(75):
         threads[i].join()
-    loop()
-    loop()
-    loop()
-
+    
     print("\033[1;31;40m[X] \033[1;37;40mIf You Are Reading This... Either Your Link/Boxes That You Entered Are Incorrect Or Either You Are Offline Or The Site Itself.")
     print("\033[1;34;40m[-_-] \033[1;37;40mSo... Basically, The Script Just Stop Working. Because Of You... Nahhh Joke. K Bye Have A Nice Day")
     print("\033[1;34;40m[*] \033[1;33;40mExiting Script...")
@@ -110,7 +106,7 @@ Notes Before You Run This Script:
         Like Google And Facebook.
     - This Can Cause Lag On Your Device While It Is Running.
         Make Sure Your Phone Has Atleast 2GB 
-        So This Script Will Not Cause On Your Device
+        So This Script Will Not Cause Lags On Your Device
     - This Tool Can Be Tricky To Non Geek Peoples.
     - If You Have Discovered Some Bug, Please Try To Report It On Us.
     - Want To Suggest A Feature On This Script?
@@ -143,7 +139,7 @@ I Can Assist You If You Want. I Created This Code So People Can Modify
 It Freely. Im Dead Serious... XD
 
 Also Please Join Our Fb Group, We Want Like You Aspiring Hackers To Be 
-Part Of Us. So... See You there :)
+Part Of Us. So... See You There :)
 ------------------------------------------------------------------------
 \n""")
     print("\033[1;34;40m[*] \033[1;33;40mExiting Script...")
