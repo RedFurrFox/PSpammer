@@ -1,4 +1,4 @@
-# ![Log0v2](https://user-images.githubusercontent.com/80197308/153523663-6f87fbca-187f-43d8-a750-d9ee2cf02f0e.png)
+## ![Log0v2](https://user-images.githubusercontent.com/80197308/153523663-6f87fbca-187f-43d8-a750-d9ee2cf02f0e.png)
 
 ## <h1 align="center">PSPAMMERv2.0
 
@@ -44,11 +44,18 @@
  - "This Is Used Only To Annoy A Bad Hacker :)" NOT To Be Used On Any Legit Sites Like Google/Facebook/Pornhub/etch...
  - If You Want To Copy/Modify My Code... Feel Free To Do It (With Or Without Credits), Thanks.
  - You Are Visible When Doing This Attack... So Make Sure You're Using Any Kind Of Protection (Like: VPNs And Proxychains)
-
-Have A Very Wonderful Day
+ - Have A Wonderful Day
 
 ---
 
+## What's New About This Shit?:
+ 
+ - Removed Asyncore :: _Getting Deprecated In The Near Future_
+ - Some Changes On README.md :: _Why Not? I Just Want It_
+ - Threading Increased (From 50 > To > 80) :: _Kinda Makes It More Interesting While Spamming Someones Phishing Link_
+ 
+---
+ 
 ## Features:
 
  - _Fake Credentials Generator._
