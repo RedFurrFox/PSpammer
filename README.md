@@ -69,6 +69,7 @@
 
  - _Can Cause DOS Attacks On Other Selected Sites._
  - _Hard To Understand Terms For Some People._
+ - _Attacks Randomly Stops :: Asyncore Prevent This... Without Asyncore, This Will Persist On All Attacks. Also This Issue Will Be Fixed In The Near Future._
 
 ---
 
