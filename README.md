@@ -50,10 +50,7 @@
 
 ## What's New About This Shit?:
  
- - Removed Asyncore :: _Getting Deprecated In The Near Future_
- - Some Changes On README.md :: _Why Not? I Just Want It_
- - Threading Increased (From 50 > To > 70) :: _Kinda Makes It More Interesting While Spamming Someones Phishing Link_
- - Added Some More Names And Password To Generate :: _Obviously To Avoid Repitions Of Data Frequently_
+ - Re-added Asyncore
  
 ---
  
@@ -69,7 +66,6 @@
 
  - _Can Cause DOS Attacks On Other Selected Sites._
  - _Hard To Understand Terms For Some People._
- - _Attacks Randomly Stops :: Asyncore Prevent This... Without Asyncore, This Will Persist On All Attacks. Also This Issue Will Be Fixed In The Near Future._
 
 ---
 
