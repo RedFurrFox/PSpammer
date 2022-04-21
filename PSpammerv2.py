@@ -1,5 +1,5 @@
 # Modules
-import threading, requests, random, time
+import threading, requests, random, time, asyncore
 
 # Data For Fake Account And Password Generator So It Will Make The Sended Data Legit And Get Accepted Even If They Have A Filter.
 MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona","lore","surprize","dog","admin","cat","shermin"]
@@ -73,6 +73,10 @@ if S == "1" or S == "01":
         threads[i].start()
     for i in range(70):
         threads[i].join()
+    
+    asyncore.loop()
+    asyncore.loop()
+    asyncore.loop()
     
     print("\033[1;31;40m[X] \033[1;37;40mIf You Are Reading This... Either Your Link/Boxes That You Entered Are Incorrect Or Either You Are Offline Or The Site Itself.")
     print("\033[1;34;40m[-_-] \033[1;37;40mSo... Basically, The Script Just Stop Working. Because Of You... Nahhh Joke. K Bye Have A Nice Day")
