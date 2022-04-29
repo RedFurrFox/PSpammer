@@ -138,7 +138,7 @@ They Will Assist You On How To Use This Script.)
 ========================================================================
 - To My Fellow Hackers Or Who Will Try To Reverse Engineer This Script:
 ========================================================================
-You Can Do Whatever You Want On My Code "With Or Without Credits", 
+You Can Do Whatever You Want On My Code "With Proper Credits", 
 I Can Assist You If You Want. I Created This Code So People Can Modify
 It Freely. Im Dead Serious... XD
 
