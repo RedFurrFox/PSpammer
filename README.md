@@ -42,7 +42,7 @@
 
  - I'm Not Responsible For Any Kind Of Reliable Lawsuits Against You When You Use My Code!!! It Is Up For The Person Who Used My Code On Any Links Or For Bad Purposes (My Code, Your Shits)
  - "This Is Used Only To Annoy A Bad Hacker :)" NOT To Be Used On Any Legit Sites Like Google/Facebook/Pornhub/etch...
- - If You Want To Copy/Modify My Code... Feel Free To Do It (With Credits), Thanks.
+ - If You Want To Copy/Modify My Code... Feel Free To Do It (With Proper Credits), Thanks.
  - You Are Visible When Doing This Attack... So Make Sure You're Using Any Kind Of Protection (Like: VPNs And Proxychains)
  - Have A Wonderful Day
 
