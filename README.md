@@ -71,7 +71,7 @@
 
 ## Dev Note:
 
-- _I'll be pausing this project for a while, I'll be updating this tool once I've finshed my personal stuffs. k bye. thanks.
+- _I'll be pausing this project for a while, I'll be updating this tool once I've finshed my personal stuffs. k bye. thanks._
 
 ---
 
