@@ -69,6 +69,12 @@
 
 ---
 
+## Dev Note:
+
+- _I'll be pausing this project for a while, I'll be updating this tool once I've finshed my personal stuffs. k bye. thanks.
+
+---
+
 ## Plans About This Repo On The Near Future:
 
  - _Adding Threadscrapper For More Efficient Executions Than Threading Itself._
