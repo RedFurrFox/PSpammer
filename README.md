@@ -1,4 +1,4 @@
-## ![Log0v2](https://user-images.githubusercontent.com/80197308/153523663-6f87fbca-187f-43d8-a750-d9ee2cf02f0e.png)
+## <img alt="Log0v2" height="450" src="https://user-images.githubusercontent.com/80197308/153523663-6f87fbca-187f-43d8-a750-d9ee2cf02f0e.png" width="450"/>
 
 ## <h1 align="center">PSPAMMERv2.0
 
@@ -28,7 +28,7 @@
 
 ## Video Tutorial:
 
- Comming Soon 👌👌👌
+ Coming Soon 👌👌👌
 
 ---
 
@@ -43,7 +43,7 @@
  - I'm Not Responsible For Any Kind Of Reliable Lawsuits Against You When You Use My Code!!! It Is Up For The Person Who Used My Code On Any Links Or For Bad Purposes (My Code, Your Shits)
  - "This Is Used Only To Annoy A Bad Hacker :)" NOT To Be Used On Any Legit Sites Like Google/Facebook/Pornhub/etch...
  - If You Want To Copy/Modify My Code... Feel Free To Do It (With Proper Credits), Thanks.
- - You Are Visible When Doing This Attack... So Make Sure You're Using Any Kind Of Protection (Like: VPNs And Proxychains)
+ - You Are Visible When Doing This Attack... So Make Sure You're Using Any Kind Of Protection (Like: VPNs And Proxy-chains)
  - Have A Wonderful Day
 
 ---
@@ -71,22 +71,22 @@
 
 ## Dev Note:
 
-- _I'll be pausing this project for a while, I'll be updating this tool once I've finshed my personal stuffs. k bye. thanks._
+- _I'll be pausing this project for a while, I'll be updating this tool once I've finished my personal stuffs. k bye. thanks._
 
 ---
 
 ## Plans About This Repo On The Near Future:
 
- - _Adding Threadscrapper For More Efficient Executions Than Threading Itself._
+ - _Adding Thread-scrapper For More Efficient Executions Than Threading Itself._
  - _Adding An Editable Text File That Contains Fake Credentials For Easy Changes._
- - _Adding Some Anti-Tracking Counter Measures (Like: Changable Random Proxies, Fake User Agents And Some Other Junks)._
+ - _Adding Some Anti-Tracking Counter Measures (Like: Changeable Random Proxies, Fake User Agents And Some Other Junks)._
  - _Adding Some Other Features (Like Spam Count And Put Its Generated Fake Credentials On A Specific Text File)._
- - _Adding An Auto PIP Install/Update For User Convinience._
- - _Maybe I'll Add Some Anti-Piracy Features On This Script (Like: 'Obfuscation' And 'Anti-Copy And Paste' Againts User To User Transfer So As To Avoid Sharing Malicious Codes)._
+ - _Adding An Auto PIP Install/Update For User Convenience._
+ - _Maybe I'll Add Some Anti-Piracy Features On This Script (Like: 'Obfuscation' And 'Anti-Copy And Paste' Against User To User Transfer To Avoid Sharing Malicious Codes)._
  - _Improved Its Spamming Efficiency To Its Target._
  - _Hiring Some Testers To Further Check If The Script Is Running As Intended._
  - _Adding A Target Ping Test, To See If The Site Is Close With Built-In Site Code._
- - _Random Trashtalks._
+ - _Random Trash-talks._
  - _Video Tutorial._
 
 ---
@@ -105,7 +105,7 @@
   
 ## Created By: 
   
- - ["RedFurrFox On Github"](https://github.com/RedFurrFox)
+ - ["RedFurrFox On GitHub"](https://github.com/RedFurrFox)
 
 ---
 
