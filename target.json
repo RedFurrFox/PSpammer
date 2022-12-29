@@ -1,0 +1,36 @@
+{
+  "attributes": [
+    {
+      "id": "1",
+      "post_link": "http://192.168.1.1/login.shtml?id=401",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Cookie": "language=en",
+        "Host": "192.168.1.1",
+        "Pragma": "no-cache",
+        "Referer": "https://192.168.1.1/",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "Windows",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-User": "?1"
+      },
+      "forms": {
+        "username_form_name": "loginName",
+        "password_form_name": "loginPassword",
+        "ip_form_name": ""
+      },
+      "custom": {
+        "certificate": false,
+        "timeout": 3,
+        "threading_value": 70
+      }
+    }
+
+  ]
+}

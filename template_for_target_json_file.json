@@ -1,0 +1,22 @@
+{
+  "attributes": [
+    {
+      "id": "",
+      "post_link": "",
+      "headers": {
+        "":""
+      },
+      "forms": {
+        "username_form_name": "",
+        "password_form_name": "",
+        "ip_form_name": ""
+      },
+      "custom": {
+        "certificate": true,
+        "timeout": 3,
+        "threading_value": 70
+      }
+    }
+
+  ]
+}
