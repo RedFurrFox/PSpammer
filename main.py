@@ -284,7 +284,7 @@ def main():
 				def Sender():
 					while True:
 						try:
-							Spammer = requests.get(url=request_url, timeout=timeout, data=main_form, headers=main_header, proxies=proxy, cert=cert_conv)
+							Spammer = requests.post(url=request_url, timeout=timeout, data=main_form, headers=main_header, proxies=proxy, cert=cert_conv)
 							print("[Console] Status: Request Sent")
 							loghandler(status=Spammer.status_code, text="Request Posted", id_na=id, proxy=gen_proxy, payload1=main_header, payload2=main_form)
 						except requests.ReadTimeout:
