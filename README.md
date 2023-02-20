@@ -99,12 +99,6 @@
 
 ---
 
-## Join Our Fucking Socials: 
-
- - ["Android Hacker PH On Facebook"](https://www.facebook.com/groups/1778790372291663)
-
----
-  
 ## Created By: 
   
  - ["RedFurrFox On GitHub"](https://github.com/RedFurrFox)
