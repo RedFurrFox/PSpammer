@@ -26,7 +26,7 @@ T1 = 0.50
 print(LOGO)
 print(LOGO1)
 time.sleep(T)
-print("(Please Don't Mind The Error On Import If You See It. This Script Need That Module Even It Is Deprecated)\n")
+print("(Please Don't Mind The Error On Import If You See It. This Script Need That Module Even It Is Deprecated. That will be fixed in the future updates)\n")
 time.sleep(T)
 print("""\033[1;34;40m[?] \033[1;37;40mPlease Choose Your Selection To Start:
 \033[1;32;40m[01] \033[1;37;40mStart
@@ -164,4 +164,4 @@ else:
 # Join Our FB Group: https://www.facebook.com/groups/1778790372291663
 
 
-# 8===================D- - __ _                                                                         (Just Random Dick Jokes.... Don't Mind This.... XD)
+# 8===================D- - __ _                                                                         (Just A Random Dick Joke.... Don't Mind This.... XD)
