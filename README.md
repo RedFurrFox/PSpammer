@@ -73,7 +73,7 @@
 
 ## Dev Note:
 
-- _I'll be pausing this project for a while, I'll be updating this tool once I've finished my personal stuffs. k bye. thanks._
+- _I'll be pausing this project for a while, I'll be updating this tool once I've finished my personal stuff. k bye. thanks._
 
 ---
 
@@ -81,7 +81,7 @@
 
  - _Adding Thread-scrapper For More Efficient Executions Than Threading Itself._
  - _Adding An Editable Text File That Contains Fake Credentials For Easy Changes._
- - _Adding Some Anti-Tracking Counter Measures (Like: Changeable Random Proxies, Fake User Agents And Some Other Junks)._
+ - _Adding Some Anti-Tracking Counter Measures (Like Changeable Random Proxies, Fake User Agents, And Some Other Junks)._
  - _Adding Some Other Features (Like Spam Count And Put Its Generated Fake Credentials On A Specific Text File)._
  - _Adding An Auto PIP Install/Update For User Convenience._
  - _Maybe I'll Add Some Anti-Piracy Features On This Script (Like: 'Obfuscation' And 'Anti-Copy And Paste' Against User To User Transfer To Avoid Sharing Malicious Codes)._
@@ -95,7 +95,7 @@
 
 ## Want To Help Us To Annoy Some Bad Hackers?
 
- - You Can Help Us By Suggesting/Adding A Features And Joining Our [FB group](https://www.facebook.com/groups/1778790372291663) (Anytime And Anywhere)
+ - You Can Help Us By Suggesting/Adding Features And Joining Our [FB group](https://www.facebook.com/groups/1778790372291663) (Anytime And Anywhere)
 
 ---
 
@@ -119,3 +119,5 @@
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/RedFurrFox/PSpammer">PSpammer</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/RedFurrFox">RedFurrFox</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
  
 ---
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=[RedFurrFox].PSpammer)
