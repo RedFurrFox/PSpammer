@@ -4,9 +4,9 @@ import threading, requests, random, time, asyncore
 # Data For Fake Account And Password Generator So It Will Make The Sended Data Legit And Get Accepted Even If They Have A Filter.
 MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona","lore","surprize","dog","admin","cat","shermin"]
 MAIL1_Var = ["communication","help","gaming","assistant","trinity","sponsor","love_you","sexlife","cum","mukbangs","assistant","support","info","work","school","help","care","random","admin","moderator","adm","mod"]
-MAIL2_Var = ["gmail","outlook","me","yahoo","pornhub","microsoft","youtube","pornhub","brazzers","google","hotmail","insta","facebook","msn","gore","freebrazzers"]
+MAIL2_Var = ["gmail","outlook","me","yahoo","pornhub","microsoft","youtube","pornhub","brazzers","google","hotmail","insta","facebook","msn","gore","freebrazzers","cummingbitch","sexymilf","motherfuckingduck","yourmomishot"]
 MAIL3_Var = ["-","_",".",""]
-PASSWORD_Var = ["123456789","987654321","090807060504030201","Dragon","Cat","Dog","Fury","1111111111","Sheesh123","spam6912345","ILOVEYOU","WELOVEEARTH","08112233445","GetReadyWeAreHavingFun","ILOVEPORN691298","636564636261Memak","loveLetter","Qwerty123","qwertyuopasdfghjklzxcvbnm","GYGAUBCDUSVBXJAISHI","Hentailover69","hewdvxbsxhjksbdsbohedf","wteruyegabzkxchh","qwertyuiopasdfghjklzxcvbnm","ABCDEFGHILKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz","Yes_Daddy_Give_Me_Your_Seed","I Love You Shermin","Walang Tayo Bitch","Mamamo blue69"]
+PASSWORD_Var = ["123456789","987654321","090807060504030201","Dragon","Cat","Dog","Fury","1111111111","Sheesh123","spam6912345","ILOVEYOU","WELOVEEARTH","08112233445","GetReadyWeAreHavingFun","ILOVEPORN691298","636564636261Memak","loveLetter","Qwerty123","qwertyuopasdfghjklzxcvbnm","GYGAUBCDUSVBXJAISHI","Hentailover69","hewdvxbsxhjksbdsbohedf","wteruyegabzkxchh","qwertyuiopasdfghjklzxcvbnm","ABCDEFGHILKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz","Yes_Daddy_Give_Me_Your_Seed","I Love You Shermin","Walang Tayo Bitch","Mamamo blue69","ilikeporn","she_sucked_my_dick","ilikecock]
 
 #Logo
 LOGO = """\033[1;31;40m██████\033[1;32;40m╗░░\033[1;31;40m██████\033[1;32;40m╗██████╗░░█████╗░███╗░░░███╗███╗░░░███╗███████╗\033[1;34;40m██████\033[1;32;40m╗░
